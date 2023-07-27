@@ -13,14 +13,14 @@ const Portofolio = () => {
     {
       id: 1,
       image: p1,
-      title: "GitHub",
+      title: "Kenzous",
       link: "https://github.com/Kenzou-naori/kenzous",
       demo: "https://kenzous.cods3.com",
     },
     {
       id: 2,
       image: p2,
-      title: "GitHub",
+      title: "Landing Page",
       link: "https://github.com/Kenzou-naori/kenzous",
       demo: "https://https://kenzou-projects.vercel.app",
     }
@@ -38,7 +38,7 @@ const Portofolio = () => {
             <div key={id} className="max-w-lg flex shadow-lg shadow-gray-300 rounded-2xl overflow-hidden" data-aos="zoom-out" data-aos-delay="100" data-aos-duration="1000">
                 <img src={image} alt={title} className="w-2/3" />
                 <div className="w-2/3 flex flex-col items-center justify-evenly p-1">
-                    <h2>Kenzous</h2>
+                    <h2>{title}</h2>
                     <a className="text-2xl cursor-pointer duration-150 hover:scale-110" href={link} target="_blank" rel="noopener noreferrer">
                         <FaGithub/>
                     </a>
