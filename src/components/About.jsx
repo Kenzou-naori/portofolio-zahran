@@ -45,7 +45,7 @@ const About = () => {
           <div>
             <a
               href="/src/assets/CVNaufalMZahran.pdf"
-              download="CVNaufalMZahran.pdf" type="application/octet-stream"  
+              download  type="application/octet-stream"  
               className="flex items-center justify-center w-32 rounded-t-xl rounded-b-xl mt-2 border-2 border-black text-black dark:border-white dark:text-white hover:bg-sky-600
                hover:text-white hover:border-sky-600  duration-200 py-2 rounded-lg "
             >
