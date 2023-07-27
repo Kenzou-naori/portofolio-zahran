@@ -44,8 +44,8 @@ const About = () => {
           </h2>
           <div>
             <a
-              href="/src/assets/NaufalMZahran.pdf"
-              download="NaufalMZahran" 
+              href="/src/assets/CVNaufalMZahran.pdf"
+              download="CVNaufalMZahran" 
               className="flex items-center justify-center w-32 rounded-t-xl rounded-b-xl mt-2 border-2 border-black text-black dark:border-white dark:text-white hover:bg-sky-600
                hover:text-white hover:border-sky-600  duration-200 py-2 rounded-lg "
             >

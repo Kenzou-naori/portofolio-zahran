@@ -80,7 +80,7 @@ const Contact = () => {
                   </svg>
                   <div className="ml-4 text-md tracking-wide font-semibold w-40">
                     <a
-                      href="https://goo.gl/maps/5LujQy87BK8S33hKA"
+                      href="https://goo.gl/maps/7MPwtXmoev8ZyZAJ7"
                       className="hover:text-sky-400 duration-300"
                     >
                       Alam Tirta Lestari Jl.FLamboyan

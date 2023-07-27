@@ -39,7 +39,7 @@ const Services = () => {
           <i className="bx bx-devices text-sky-600 text-4xl"></i>
           <h3 className="mt-5 text-lg font-bold">Website Design</h3>
           <p className="text-thin">
-            I love to design a website, i usually use figma.
+            I love to design a website, for designing a website i usually use figma.
           </p>
         </div>
         <div id="card" className="flex flex-col text-start p-5 shadow-lg dark:shadow-gray-100 rounded-xl duration-300 ease-in-out hover:scale-110  hover:bg-sky-800 hover:text-white ">
