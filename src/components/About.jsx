@@ -4,11 +4,11 @@ import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import avad from "../assets/avad.png"; 
+import avad from "../assets/avad.png";
+import pdf from "../assets/CVNaufalMZahran.pdf";
 
 // eslint-disable-next-line react/prop-types
 const About = () => {
-  
   useEffect(() => {
     AOS.init();
   }, []);
@@ -29,9 +29,9 @@ const About = () => {
           data-aos-delay="200"
           data-aos-duration="1200"
         />
-        
+
         <div>
-      <h3 className="py-3 text-3xl lg:text-5xl text-start">About Me</h3>
+          <h3 className="py-3 text-3xl lg:text-5xl text-start">About Me</h3>
           <h2
             className="text-start font-extralight tracking-widest"
             // data-aos="zoom-in"
@@ -44,8 +44,10 @@ const About = () => {
           </h2>
           <div>
             <a
-              href="/src/assets/CVNaufalMZahran.pdf"
-              download type="application/octet-stream"  
+              href={pdf}
+              download
+              rel="noopener noreferrer"
+              target="_blank"
               className="flex items-center justify-center w-32 rounded-t-xl rounded-b-xl mt-2 border-2 border-black text-black dark:border-white dark:text-white hover:bg-sky-600
                hover:text-white hover:border-sky-600  duration-200 py-2 rounded-lg "
             >
@@ -57,6 +59,5 @@ const About = () => {
     </section>
   );
 };
-
 
 export default About;
