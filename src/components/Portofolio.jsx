@@ -6,11 +6,7 @@ import 'aos/dist/aos.css';
 import { FaGithub, FaExternalLinkSquareAlt } from "react-icons/fa";
 
 import p1 from "../assets/kenzous.png";
-import p2 from "../assets/p2.jpg";
-import p3 from "../assets/p3.jpg";
-import p4 from "../assets/p4.jpg";
-import p5 from "../assets/p5.jpg";
-import p6 from "../assets/p6.jpg";
+import p2 from "../assets/landingp.png";
 
 const Portofolio = () => {
   const PROJECTS = [
@@ -18,44 +14,17 @@ const Portofolio = () => {
       id: 1,
       image: p1,
       title: "GitHub",
-      link: "https://kenzous.cods3.com",
-      demo: "https://github.com,",
+      link: "https://github.com/Kenzou-naori/kenzous",
+      demo: "https://kenzous.cods3.com",
     },
     {
       id: 2,
       image: p2,
       title: "GitHub",
-      link: "https://github.com",
-      demo: "https://github.com,",
-    },
-    {
-      id: 3,
-      image: p3,
-      title: "GitHub",
-      link: "https://github.com",
-      demo: "https://github.com,",
-    },
-    {
-      id: 4,
-      image: p4,
-      title: "GitHub",
-      link: "https://github.com",
-      demo: "https://github.com,",
-    },
-    {
-      id: 5,
-      image: p5,
-      title: "GitHub",
-      link: "https://github.com",
-      demo: "https://github.com,",
-    },
-    {
-      id: 6,
-      image: p6,
-      title: "GitHub",
-      link: "https://github.com",
-      demo: "https://github.com,",
-    },
+      link: "https://github.com/Kenzou-naori/kenzous",
+      demo: "https://https://kenzou-projects.vercel.app",
+    }
+   
   ];
   useEffect(() => {
     AOS.init();
