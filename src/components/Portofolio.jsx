@@ -22,7 +22,7 @@ const Portofolio = () => {
       image: p2,
       title: "Landing Page",
       link: "https://github.com/Kenzou-naori/kenzous",
-      demo: "https://https://kenzou-projects.vercel.app",
+      demo: "https://kenzou-projects.vercel.app",
     }
    
   ];
