@@ -7,6 +7,7 @@ import { FaGithub, FaExternalLinkSquareAlt } from "react-icons/fa";
 
 import p1 from "../assets/kenzous.png";
 import p2 from "../assets/landingp.png";
+import p3 from "../assets/tikdown.png";
 
 const Portofolio = () => {
   const PROJECTS = [
@@ -23,6 +24,13 @@ const Portofolio = () => {
       title: "Landing Page",
       link: "https://github.com/Kenzou-naori/kenzous-projects",
       demo: "https://kenzou-projects.vercel.app",
+    },
+    {
+      id: 3,
+      image: p3,
+      title: "TikTok Downloader",
+      link: "https://github.com/Kenzou-naori/tiktokdownloader",
+      demo: "https://tiktokdownloader-plum.vercel.app/",
     }
    
   ];
