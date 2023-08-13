@@ -39,7 +39,7 @@ const Portofolio = () => {
   }, [])
   return (
     <section className='min-h-fit flex flex-col justify-start items-center py-16 px-5 text-center ' id="Port"> 
-    <h3 className='py-3 text-3xl lg:text-5xl'>My Project</h3>
+    <h3 className='py-3 text-3xl lg:text-5xl'>My Projects</h3>
     <div className="grid gap-8 lg:gap-14 lg:grid-cols-2 mt-6">
 
         {PROJECTS.map(({id, image, title, link, demo}) => (
