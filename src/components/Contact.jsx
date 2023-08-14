@@ -47,7 +47,7 @@ const Contact = () => {
         <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
           <div className="mt-8 overflow-hidden">
             <div className="grid grid-cols-1 md:grid-cols-2">
-              <div className="p-6 w-72 md:w-full bg-gray-100 dark:bg-gray-800 sm:rounded-lg">
+              <div className="p-6 w-72 md:w-full bg-gray-100 dark:bg-gray-800 duration-700 sm:rounded-lg">
                 <h1 className="text-4xl sm:text-5xl text-gray-800 dark:text-white font-extrabold tracking-tight">
                   Contact Me
                 </h1>
@@ -157,7 +157,7 @@ const Contact = () => {
                     name="user_name"
                     id="name"
                     placeholder="Full Name"
-                    className="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 dark:text-white font-semibold focus:border-indigo-500 focus:outline-none"
+                    className="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 duration-700 border border-gray-400 dark:border-gray-700 text-gray-800 dark:text-white font-semibold focus:border-indigo-500 focus:outline-none"
                   />
                 </div>
 
@@ -171,7 +171,7 @@ const Contact = () => {
                     id="email"
                     placeholder="Email"
                     required
-                    className="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 dark:text-white font-semibold focus:border-indigo-500 focus:outline-none"
+                    className="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 duration-700 border border-gray-400 dark:border-gray-700 text-gray-800 dark:text-white font-semibold focus:border-indigo-500 focus:outline-none"
                   />
                 </div>
 
@@ -184,7 +184,7 @@ const Contact = () => {
                     name="message"
                     id="message"
                     placeholder="Message"
-                    className="w-100  mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 dark:text-white font-semibold focus:border-indigo-500 focus:outline-none resize-none"
+                    className="w-100  mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 duration-700 border border-gray-400 dark:border-gray-700 text-gray-800 dark:text-white font-semibold focus:border-indigo-500 focus:outline-none resize-none"
                   ></textarea>
                 </div>
 

@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 // import { FaTwitter, FaFacebook, FaLinkedin, FaArrowDown } from "react-icons/fa";
-import avatar from "../assets/avas.png";
+import avatar from "../assets/pict.png";
 // import Section from "../components/commons/Section";
 
 const Hero = () => {
@@ -31,7 +31,10 @@ const Hero = () => {
   // });
 
   return (
-    <section className=" max-w-full flex md:flex-row flex-col justify-evenly items-center p-7 sm:p-12 lg:p-12  " id="Hello">
+    <section
+      className=" max-w-full flex md:flex-row flex-col justify-evenly items-center p-7 sm:p-12 lg:p-12  "
+      id="Hello"
+    >
       <div>
         <h2
           className="text-2xl md:text-3xl lg:text-4xl text-sky-600 select-none font-extrabold tracking-widest"

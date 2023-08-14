@@ -5,6 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import avad from "../assets/avad.png";
+import avas from "../assets/avas.png";
 import pdf from "../assets/CVNaufalMZahran.pdf";
 
 // eslint-disable-next-line react/prop-types
@@ -24,7 +25,15 @@ const About = () => {
         <img
           src={avad}
           alt="miku"
-          className="h-70 w-60 md:h-full md:w-96"
+          className="h-70 w-60 md:h-full md:w-96 dark:hidden"
+          data-aos="flip-right"
+          data-aos-delay="200"
+          data-aos-duration="1200"
+        />
+        <img
+          src={avas}
+          alt="miku"
+          className="h-70 w-60 md:h-full md:w-96 hidden dark:inline "
           data-aos="flip-right"
           data-aos-delay="200"
           data-aos-duration="1200"
