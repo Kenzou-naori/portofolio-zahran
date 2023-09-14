@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+
+@layer base {
+
+  ::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(17 24 39 );
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: rgba(225, 29, 71, 0.081);
+  }
+
+  
+  html {
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Lato', sans-serif;
+    font-weight:lighter;
+    scroll-behavior: smooth;
+    /* scroll-padding: 20px; */
+  }
+  
+  .hide-down-arrow {
+    display: none;
+  }
+  #NaraKen{
+    font-family: 'Space Mono', monospace;
+    
+  }
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .mf-social-side-list {
+    position: fixed;
+    top: 30vh;
+    left: 10px;
+    z-index: 100;
+}
+
+.mf-social-side-list ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+   padding: 0;
+   margin:0
+}
+.mf-social-side-list ul li a {
+    color: #ffffff;
+    background: #3b5998;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 39px;
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.mf-social-side-list ul li a:hover {
+    opacity: .9;
+    -webkit-transform: translateY(-3px) translateX(3px);
+    transform: translateY(-3px) translateX(3px);
+}
+#card:hover i
+{
+  color: wheat;
+}
+}
