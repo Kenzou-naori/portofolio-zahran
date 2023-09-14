@@ -25,7 +25,7 @@ const Portofolio = () => {
       image: p2,
       title: "Landing Page",
       detail:
-        "Landing Page developed with HTML and CSS",
+        "Landing Page developed with HTML and Bootstrap for CSS",
       link: "https://github.com/Kenzou-naori/kenzous-projects",
       demo: "https://kenzou-projects.vercel.app",
     },
@@ -34,7 +34,7 @@ const Portofolio = () => {
       image: p3,
       title: "TikTok Downloader",
       detail:
-        "Website for download Tiktok videos for free",
+        "Website for download Tiktok Videos for free and No Watermark ",
       link: "https://github.com/Kenzou-naori/tiktokdownloader",
       demo: "https://tiktokdownloader-plum.vercel.app/",
     },

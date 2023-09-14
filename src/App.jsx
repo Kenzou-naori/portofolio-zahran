@@ -1,5 +1,6 @@
 import { useState } from "react";
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Preloader from "./components/Preloader";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -14,6 +15,7 @@ function App() {
 
   return (
     <div className={darkMode && "dark"}>
+      <Preloader />
       <Header darkMode={darkMode} setDarkMode = {setDarkMode} />
 
       <main className="bg-white dark:bg-gray-900 text-gray-900 duration-700 dark:text-white p-10">
