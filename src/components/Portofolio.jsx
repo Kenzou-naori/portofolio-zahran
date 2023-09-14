@@ -25,7 +25,7 @@ const Portofolio = () => {
       image: p2,
       title: "Landing Page",
       detail:
-        "E-commerce website developed with the PHP programming language and the Laravel framework .",
+        "Landing Page developed with HTML and CSS",
       link: "https://github.com/Kenzou-naori/kenzous-projects",
       demo: "https://kenzou-projects.vercel.app",
     },
@@ -34,7 +34,7 @@ const Portofolio = () => {
       image: p3,
       title: "TikTok Downloader",
       detail:
-        "E-commerce website developed with the PHP programming language and the Laravel framework .",
+        "Website for download Tiktok videos for free",
       link: "https://github.com/Kenzou-naori/tiktokdownloader",
       demo: "https://tiktokdownloader-plum.vercel.app/",
     },
