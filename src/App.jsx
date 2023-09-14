@@ -32,7 +32,6 @@ function App() {
 <About />
 <Services />
 <Portofolio />
-{/* <Testimonials /> */}
 <Contact />
 <Footer/>
 

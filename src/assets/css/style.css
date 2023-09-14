@@ -3,7 +3,7 @@
   width: fit-content;
   font-weight: bold;
   font-family: monospace;
-  font-size: 30px;
+  font-size: 50px;
   background: linear-gradient(50deg,#0000 calc(50% - 0.5em),#dfdfdf 0 calc(50% + 0.5em),#0000 0) right/300% 100%;
   animation: l22 2s infinite;
 }
@@ -21,9 +21,9 @@
   100%{background-position: left}
 }
 
-@media (min-width:1024px){
-  .loaoder {
-    font-size: 60px;
+@media (max-width:1020px){
+  .loader {
+    font-size: 0px;
   }
   
 }
