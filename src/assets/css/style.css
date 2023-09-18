@@ -8,7 +8,7 @@
   animation: l22 2s infinite;
 }
 .loader::before {
-  content: "Just a Seconds...";
+  content: "This Loading Just For Fun....";
   color: #e6e6e6;
   padding: 0 5px;
   background: inherit;
